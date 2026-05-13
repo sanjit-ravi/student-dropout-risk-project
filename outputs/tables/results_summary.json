@@ -1,0 +1,26 @@
+{
+  "rows": 4424,
+  "raw_features": 36,
+  "features_after_engineering": 45,
+  "binary_best_model": "xgboost",
+  "binary_best_metrics": {
+    "model": "xgboost",
+    "accuracy": 0.8892655367231639,
+    "precision_macro": 0.8823577124174851,
+    "recall_macro": 0.8590377539781116,
+    "f1_macro": 0.8691492058127746,
+    "roc_auc": 0.9332626373883902,
+    "dropout_precision": 0.8661417322834646,
+    "dropout_recall": 0.7746478873239436,
+    "dropout_f1": 0.8178438661710037
+  },
+  "multiclass_best_model": "random_forest",
+  "multiclass_best_metrics": {
+    "model": "random_forest",
+    "accuracy": 0.7740112994350282,
+    "precision_macro": 0.7238798509719011,
+    "recall_macro": 0.7093139626435964,
+    "f1_macro": 0.7153338965940242,
+    "roc_auc": 0.907442543845901
+  }
+}
